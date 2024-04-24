@@ -5,7 +5,7 @@
     require "components/navbar.php";
 ?>
 <?php if($_SESSION["user"] == true ){ ?>
-<p class="welcome">Welcome, <?= $_SESSION["username"] ?> !</p>
+<p class="welcome">Hello, <?= $_SESSION["username"] ?> !</p>
 <?php } ?>
 <form action="/logout" method="POST">
     <button>Logout</button>
