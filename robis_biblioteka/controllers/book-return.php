@@ -31,6 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
         $params = [ ":id" => $_POST["id"]];
         $db->execute($query,$params);
     
-    header("Location: /borrowed-books");
+    header("Location: /books-borrowed");
     die();
 }

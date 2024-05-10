@@ -6,7 +6,7 @@
 ?>
 <article>
     <div class="edit-box">
-        <div class="bookhub-box">
+        <div class="book-box">
             <h1>Edit <?= $book["title"]?></h1>
         </div>
         <form method="POST"> 

@@ -11,7 +11,6 @@
     <button>Logout</button>
 </form>
 <div class="page-title">
-    <h1>List of the books</h1>
 </div>
 <article class="book-article">
 

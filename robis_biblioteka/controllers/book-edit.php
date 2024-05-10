@@ -19,7 +19,7 @@
                 <input class="edit-input" name="author" value="<?= $_POST["author"] ?? $book["author"] ?>"/>
             </label>
             <label>
-                Release year:
+                Release date:
                 <input class="edit-input" name="release_date" value="<?= $_POST["release_date"] ?? $book["release_date"] ?>"/>
             </label>
             <label>

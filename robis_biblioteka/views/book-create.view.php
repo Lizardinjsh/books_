@@ -1,12 +1,12 @@
-<?php 
-    require "components/head.php";
-?>
 <?php
     require "components/navbar.php";
+    
+?>
+<?php  require "components/head.php";
 ?>
 <article>
     <div class="edit-box">
-        <div class="bookhub-box">
+        <div class="book-box">
             <h1>Add more books</h1>
         </div>
         <form method="POST">
@@ -19,7 +19,7 @@
                 <input class="edit-input" name="author" value="<?= $_POST["author"] ?? "" ?>" placeholder="<?php if (isset($errors["author"])){?><?= $errors["author"] ?> <?php } else { ?>  <?php } ?>"/>
             </label>
             <label>
-                release date:
+                Release date:
                 <input type="date"class="edit-input"name="release_date" value="<?= $_POST["release_date"] ?? "" ?>"/>
             </label>
             <label>
